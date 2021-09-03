@@ -1,0 +1,16 @@
+// DAO -> Data Access Object
+
+package Modelo;
+
+public class ClienteModelDAO{
+
+	public ClienteDAO(){
+	
+	}
+
+	// Tiene las operaciones CRUD de una bd 
+	public int insertarCliente(String nombre, String apellido, String f_compra, String h_compra, double credito){
+		
+	}
+
+}

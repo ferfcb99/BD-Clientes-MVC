@@ -1,0 +1,29 @@
+package modelo;
+
+public class Cliente{
+
+	public String nombre; 
+	public String apellido;
+	public String f_compra; 
+	public String h_compra;,
+	public double credito;
+
+	// Para MVC es recomendable inicalizar las variables
+	// en un constructor y dejar uno vacio
+	
+	public Cliente(String nombre, String apellido, String f_compra, String h_compra, double credito){
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.f_compra = f_hora;
+		this.h_compra = h_compra;
+		this.credito = credito;
+	}
+
+	public Cliente(){
+		this.nombre = "";
+		this.apellido = "";
+		this.f_compra = "";
+		this.h_compra = "";
+		this.credito = 0;
+	}
+}
